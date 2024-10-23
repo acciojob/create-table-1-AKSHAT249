@@ -9,6 +9,6 @@ function insert_Row() {
 		</tr>
 	`;
 
-	table.innerHTML = new_row + table.innerHTML;
+	table.insertAdjacentHTML('afterbegin', new_row);
   
 }
