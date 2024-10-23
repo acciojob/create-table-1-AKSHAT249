@@ -5,7 +5,7 @@ function insert_Row() {
 	let new_row = `
 		<tr>
 			<td>New Cell1</td>
-			<td>New Cell 2</td>
+			<td>New Cell2</td>
 		</tr>
 	`;
 
