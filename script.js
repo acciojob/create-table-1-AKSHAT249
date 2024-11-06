@@ -2,13 +2,13 @@ function insert_Row() {
     //Write your code here
 
 	let table = document.getElementById("sampleTable");
-	let new_row = `
-		<tr>
-			<td>New Cell1</td>
-			<td>New Cell2</td>
-		</tr>
-	`;
+	let newRow = table.insertRow(0);
+	let cell1 = newRow.insertCell(0);
+	let cell2 = newRow.insertCell(1);
 
-	table.innerHTML = new_row+table.innerHTML
+	cell1.innerHTML = 'New Cell1';
+	cell2.innerHTML =  'New Cell2';
+	
+	
   
 }
